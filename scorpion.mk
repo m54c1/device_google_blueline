@@ -22,7 +22,7 @@
 #
 
 # Include common configuration
-include vendor/scorpion/config/common_full_phone.mk
+include vendor/scorpion/config/common.mk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/google/crosshatch/aosp_blueline.mk)
