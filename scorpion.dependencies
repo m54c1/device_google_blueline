@@ -18,5 +18,10 @@
    "repository":  "ScorpionRom-Devices/vendor_google",
    "target_path": "vendor/google",
    "branch":      "sr-3.x"
+ },
+ {
+   "repository":  "vendor_img_blueline",
+   "target_path": "vendor/images/blueline",
+   "branch":      "sr-3.x"
  }
 ]
