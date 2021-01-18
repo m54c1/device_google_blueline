@@ -25,7 +25,7 @@
    "branch":      "sr4"
  },
  {
-   "repository":  "abc_gapps",
+   "repository":  "vendor_pixelgapps",
    "target_path": "vendor/pixelgapps",
    "branch":      "sr4"
  }
