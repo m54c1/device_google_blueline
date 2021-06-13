@@ -1,6 +1,6 @@
 # Copyright (C) 2018-2019 The Dirty Unicorns Project
 #
-# Licensed under the Apache License, Version 2.0 (the "License");
+# Licgensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
 #
@@ -22,7 +22,7 @@
 #
 
 # Include common configuration
-include vendor/scorpion/config/common.mk
+include vendor/ssos/config/common.mk
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/google/crosshatch/aosp_blueline.mk)
@@ -31,7 +31,7 @@ $(call inherit-product, device/google/crosshatch/aosp_blueline.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-PRODUCT_NAME := scorpion_blueline
+PRODUCT_NAME := ssos_blueline
 PRODUCT_DEVICE := blueline
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 3
