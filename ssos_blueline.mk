@@ -50,4 +50,4 @@ PRODUCT_PACKAGES += \
     ElmyraService
 
 $(call inherit-product-if-exists, vendor/google/blueline/blueline-vendor.mk)
-$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
